@@ -2,10 +2,10 @@
 # Theme Setting
 # Doc: https://gitpitch.com/docs/settings/theme
 #
-theme : moon
+theme : black
 
 # Syntax:
-highlight : Ir Black
+highlight : ir-black
 
 #
 # Logo Setting

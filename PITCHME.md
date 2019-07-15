@@ -1,50 +1,71 @@
-# PowerShell 分享
+# PowerShell
+
+---
+## PowerShell 是萬用瑞士刀
+@ul[spaced text-white]
+- 腳本語言 (scripting language)
+- 系統管理工具 (Admin tool)
+- 測試工具 (Pester, Operational Validation Framework)
+- 自動化工具 (Desire State Configuration)
+- Serverless function (Azure Function, AWS PowerShell Lambda)
+
+---
+@snap[west span-40 text-white]
+腳本語言 (scripting language)
+@snapend
+
+@snap[east span-60]
+![](assets/img/Get-LoggOnUser.png)
+@snapend
+
+---
+@snap[west span-40 text-white]
+系統管理工具 (Admin tool)
+@snapend
+@snap[east span-60]
+### 例如:
+
+@ul[spaced text-white]
+- Registry
+- Event Log
+- Windows Update
+- REST API
+- PowerShell Remoting
+@snapend
 
 ---
 
-## PowerShell 簡史
+## Demo - 查詢 Windows Update client id
 
----?color=linear-gradient(180deg, white 75%, black 25%)
-@title[Customize Slide Layout]
+```
+Get-ItemProperty HKLM:\SOFTWARE\Microsoft\Windows\CurrentVersion\WindowsUpdate\
+```
+---
 
-@snap[west span-50]
-## Customize the Layout
-@snapend
+@img[shadow](assets/img/whereisitsold.jpg)
 
-@snap[east span-50]
-![](assets/img/presentation.png)
-@snapend
+---
+## 工欲善其事
 
-@snap[south span-100 text-white]
-Snap Layouts let you create custom slide designs directly within your markdown.
-@snapend
-
----?color=linear-gradient(90deg, #E27924 65%, white 35%)
-@title[Add A Little Imagination]
-
-@snap[north-west h4-white]
-#### And start presenting...
-@snapend
-
-@snap[west span-55]
 @ul[spaced text-white]
-- You will be amazed
-- What you can achieve
-- *With a little imagination...*
-- And **GitPitch Markdown**
-@ulend
-@snapend
+- PowerShell 5.1 - Windows 內建
+- PowerShell Core 6 - GitHub
+- PowerShell Gallery - 模組
+- Visual Studio Code
 
-@snap[east span-45]
-@img[shadow](assets/img/conference.png)
-@snapend
+---
 
----?image=assets/img/presenter.jpg
+## Demo - 測試工具, Pester
 
-@snap[north span-100 h2-white]
-## Now It's Your Turn
-@snapend
+```
+Invoke-Pester
+```
+---
+## Demo (時間夠時) - Lab with AutomatedLab
 
-@snap[south span-100 text-06]
-[Click here to jump straight into the interactive feature guides in the GitPitch Docs @fa[external-link]](https://gitpitch.com/docs/getting-started/tutorial/)
-@snapend
+![](assets/img/AutomatedLab.PNG)
+---
+## Demo (時間夠時) - Serverless function with AWS PowerShell Lambda
+
+---
+## Q & A
