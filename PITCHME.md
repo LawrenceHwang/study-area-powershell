@@ -29,32 +29,29 @@
 - Registry
 - Event Log
 - Windows Update
+- REST API
 - PowerShell Remoting
 @snapend
 
 ---
 
-![](assets/img/whereisitsold.jpg)
+### Demo - 查詢 Windows Update client id
+
+```
+Get-ItemProperty HKLM:\SOFTWARE\Microsoft\Windows\CurrentVersion\WindowsUpdate\
+```
+---
+
+@img[shadow](assets/img/whereisitsold.jpg)
 
 ---
-@title[Add A Little Imagination]
+PowerShell 資源
 
-@snap[north-west h4-white]
-#### And start presenting...
-@snapend
-
-@snap[west span-55]
 @ul[spaced text-white]
-- You will be amazed
-- What you can achieve
-- *With a little imagination...*
-- And **GitPitch Markdown**
-@ulend
-@snapend
-
-@snap[east span-45]
-@img[shadow](assets/img/conference.png)
-@snapend
+- PowerShell 5.1 - Windows 內建
+- PowerShell Core 6 - GitHub
+- PowerShell Gallery - 模組
+-
 
 ---
 ## Q & A
