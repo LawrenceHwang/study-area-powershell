@@ -24,9 +24,11 @@
 @snapend
 @snap[east span-60]
 ### 例如:
-- Registry
-- Windows Update
-- PowerShell Remoting
+
++ Registry
++ Windows Update
++ PowerShell Remoting
+
 @snapend
 
 ---
