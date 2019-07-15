@@ -1,10 +1,8 @@
-# Let's Get Started
+# PowerShell 分享
 
 ---
 
-## Add Some Slide Candy
-
-![](assets/img/presentation.png)
+## PowerShell 簡史
 
 ---?color=linear-gradient(180deg, white 75%, black 25%)
 @title[Customize Slide Layout]
