@@ -1,15 +1,22 @@
 # PowerShell
 
----?color=linear-gradient(180deg, white 75%, black 25%)
-## PowerShell 簡史
+---
+## PowerShell 能怎麼用?
+@ul[spaced text-white]
+- 腳本語言 (scripting language)
+- 自動化工具 (Desire State Configuration)
+- 測試工具 (Pester, Operational Validation Framework)
+- Serverless function (Azure Function, AWS PowerShell Lambda)
 
 ---
 @snap[west span-50]
 ## Customize the Layout
+
 ```powershell
 Get-Help
 # This is some code sample
 ```
+
 @snapend
 
 @snap[east span-50]
@@ -20,7 +27,7 @@ Get-Help
 Snap Layouts let you create custom slide designs directly within your markdown.
 @snapend
 
----?color=linear-gradient(90deg, #E27924 65%, white 35%)
+---
 @title[Add A Little Imagination]
 
 @snap[north-west h4-white]
