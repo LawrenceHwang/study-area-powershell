@@ -9,15 +9,14 @@
 - Serverless function (Azure Function, AWS PowerShell Lambda)
 
 ---
-@snap[west span-50]
-## Customize the Layout
+## 腳本語言
 
 ```powershell
 Get-Help
 # This is some code sample
 ```
 
-@snapend
+---
 
 @snap[east span-50]
 ![](assets/img/presentation.png)
@@ -47,12 +46,5 @@ Snap Layouts let you create custom slide designs directly within your markdown.
 @img[shadow](assets/img/conference.png)
 @snapend
 
----?image=assets/img/presenter.jpg
-
-@snap[north span-100 h2-white]
-## Q and A
-@snapend
-
-@snap[south span-100 text-06]
-[Click here to jump straight into the interactive feature guides in the GitPitch Docs @fa[external-link]](https://gitpitch.com/docs/getting-started/tutorial/)
-@snapend
+---
+## Q & A
