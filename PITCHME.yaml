@@ -2,7 +2,7 @@
 # Theme Setting
 # Doc: https://gitpitch.com/docs/settings/theme
 #
-theme : moon
+theme : black
 
 # Syntax:
 highlight : ir-black
