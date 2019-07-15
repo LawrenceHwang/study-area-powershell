@@ -16,37 +16,7 @@
 @snapend
 
 @snap[east span-60]
-
-```powershell
-# This is some code sample
-function Get-LoggedOnUser {
-    [CmdletBinding()]
-    Param(
-        [Parameter (Mandatory = $false,
-            ValueFromPipeline = $true)]
-        [ValidateNotNullOrEmpty()]
-        [String[]]$ComputerName
-    )
-    Process {
-        if ($null -eq $ComputerName) {
-            $user = (Get-CimInstance -ClassName Win32_computersystem -Property username -ErrorAction Stop).UserName
-            $prop = @{
-                'Computer'     = $env:COMPUTERNAME
-                'LoggedOnUser' = $user
-            }
-            $obj = New-Object -TypeName PSObject -Property $prop
-            $obj
-        }
-    }
-}
-
-PS C:\Users\lawre\OneDrive\Code> Get-LoggedOnUser
-Computer        LoggedOnUser
---------        ------------
-DESKTOP-AL      DESKTOP-AL\lawre
-
-```
-
+![](assets/img/Get-LoggOnUser.png)
 @snapend
 
 ---
