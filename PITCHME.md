@@ -3,6 +3,7 @@
 ---?color=linear-gradient(180deg, white 75%, black 25%)
 ## PowerShell 簡史
 
+---
 @snap[west span-50]
 ## Customize the Layout
 @snapend
@@ -38,7 +39,7 @@ Snap Layouts let you create custom slide designs directly within your markdown.
 ---?image=assets/img/presenter.jpg
 
 @snap[north span-100 h2-white]
-## Now It's Your Turn
+## Q and A
 @snapend
 
 @snap[south span-100 text-06]
