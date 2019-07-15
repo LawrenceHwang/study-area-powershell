@@ -35,7 +35,7 @@
 
 ---
 
-### Demo - 查詢 Windows Update client id
+## Demo - 查詢 Windows Update client id
 
 ```
 Get-ItemProperty HKLM:\SOFTWARE\Microsoft\Windows\CurrentVersion\WindowsUpdate\
@@ -45,13 +45,13 @@ Get-ItemProperty HKLM:\SOFTWARE\Microsoft\Windows\CurrentVersion\WindowsUpdate\
 @img[shadow](assets/img/whereisitsold.jpg)
 
 ---
-PowerShell 資源
+## 工欲善其事
 
 @ul[spaced text-white]
 - PowerShell 5.1 - Windows 內建
 - PowerShell Core 6 - GitHub
 - PowerShell Gallery - 模組
--
+- Visual Studio Code
 
 ---
 ## Q & A
