@@ -9,9 +9,9 @@ function Get-LoggedOnUser {
     process {
         if ($null -eq $ComputerName) {
             $CimSplat = @{
-                ClassName    = 'Win32_ComputerSystem'
-                Property     = 'username'
-                ErrorAction  = 'STOP'
+                ClassName   = 'Win32_ComputerSystem'
+                Property    = 'username'
+                ErrorAction = 'STOP'
             }
             $user = (Get-CimInstance @CimSplat).UserName
             $obj = [PSCustomObject]@{
@@ -22,7 +22,7 @@ function Get-LoggedOnUser {
         else {
             foreach ($c in $ComputerName) {
                 try {
-                    if (Test-Connection -Quiet -ComputerName $c -count 1 -ErrorAction SilentlyContinue | Out-Null) {
+                    if (Test-Connection -Quiet -ComputerName $c -count 1 -ErrorAction SilentlyContinue) {
                         Write-Verbose -message "Checking the logged on user on $c"
                         $CimSplat = @{
                             ClassName    = 'Win32_ComputerSystem'
@@ -31,10 +31,14 @@ function Get-LoggedOnUser {
                             ErrorAction  = 'STOP'
                         }
                         $user = (Get-CimInstance @CimSplat).UserName
+                        $obj = [PSCustomObject]@{
+                            'ComputerName' = $c
+                            'LoggedOnUser' = $user
+                        }
                     }
                     else {
-                        Write-Warning -Message "Computer $c is not reachable on the network or permission denied."
-                        throw "Unable to access $c"
+                        Write-Warning -Message "Computer $c is unreachable on the network."
+                        throw
                     }
                 }
                 catch {
