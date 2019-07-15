@@ -27,20 +27,14 @@
 
 @ul[spaced text-white]
 - Registry
+- Event Log
 - Windows Update
 - PowerShell Remoting
-
 @snapend
 
 ---
 
-@snap[east span-50]
-![](assets/img/presentation.png)
-@snapend
-
-@snap[south span-100 text-white]
-Snap Layouts let you create custom slide designs directly within your markdown.
-@snapend
+![](assets/img/whereisitsold.jpg)
 
 ---
 @title[Add A Little Imagination]
