@@ -60,6 +60,12 @@ Get-ItemProperty HKLM:\SOFTWARE\Microsoft\Windows\CurrentVersion\WindowsUpdate\
 ```
 Invoke-Pester
 ```
+---
+## Demo (時間夠時) - Lab with AutomatedLab
+
+![](assets/img/AutomatedLab.PNG)
+---
+## Demo (時間夠時) - Serverless function with AWS PowerShell Lambda
 
 ---
 ## Q & A
