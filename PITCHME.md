@@ -1,20 +1,47 @@
 # PowerShell
 
 ---
-## PowerShell 能怎麼用?
+## PowerShell 是萬用瑞士刀
 @ul[spaced text-white]
 - 腳本語言 (scripting language)
+- 系統管理工具 (Admin tool)
 - 自動化工具 (Desire State Configuration)
 - 測試工具 (Pester, Operational Validation Framework)
 - Serverless function (Azure Function, AWS PowerShell Lambda)
 
 ---
-## 腳本語言
+## PowerShell
+@snap[west span-40 text-white]
+腳本語言 (scripting language)
+@snapend
 
+@snap[east]
 ```powershell
-Get-Help
 # This is some code sample
+function Get-LoggedOnUser {
+    [CmdletBinding()]
+    Param(
+        [Parameter (Mandatory = $false,
+            ValueFromPipeline = $true)]
+        [ValidateNotNullOrEmpty()]
+        [String[]]$ComputerName
+    )
+    Process {
+        if ($null -eq $ComputerName) {
+            $user = (Get-CimInstance -ClassName Win32_computersystem -Property username -ErrorAction Stop).UserName
+            $prop = @{
+                'Computer'     = $env:COMPUTERNAME
+                'LoggedOnUser' = $user
+            }
+            $obj = New-Object -TypeName PSObject -Property $prop
+            $obj
+        }
+    }
+}
+
 ```
+
+@snapend
 
 ---
 
