@@ -5,8 +5,8 @@
 @ul[spaced text-white]
 - 腳本語言 (scripting language)
 - 系統管理工具 (Admin tool)
-- 自動化工具 (Desire State Configuration)
 - 測試工具 (Pester, Operational Validation Framework)
+- 自動化工具 (Desire State Configuration)
 - Serverless function (Azure Function, AWS PowerShell Lambda)
 
 ---
@@ -52,6 +52,14 @@ Get-ItemProperty HKLM:\SOFTWARE\Microsoft\Windows\CurrentVersion\WindowsUpdate\
 - PowerShell Core 6 - GitHub
 - PowerShell Gallery - 模組
 - Visual Studio Code
+
+---
+
+## Demo - 測試工具, Pester
+
+```
+Invoke-Pester
+```
 
 ---
 ## Q & A
