@@ -10,7 +10,6 @@
 - Serverless function (Azure Function, AWS PowerShell Lambda)
 
 ---
-## PowerShell
 @snap[west span-40 text-white]
 腳本語言 (scripting language)
 @snapend
