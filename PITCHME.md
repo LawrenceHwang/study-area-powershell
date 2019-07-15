@@ -6,6 +6,10 @@
 ---
 @snap[west span-50]
 ## Customize the Layout
+```powershell
+Get-Help
+# This is some code sample
+```
 @snapend
 
 @snap[east span-50]
