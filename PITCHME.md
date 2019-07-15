@@ -15,7 +15,8 @@
 腳本語言 (scripting language)
 @snapend
 
-@snap[east]
+@snap[east span-60]
+
 ```powershell
 # This is some code sample
 function Get-LoggedOnUser {
@@ -38,6 +39,11 @@ function Get-LoggedOnUser {
         }
     }
 }
+
+PS C:\Users\lawre\OneDrive\Code> Get-LoggedOnUser
+Computer        LoggedOnUser
+--------        ------------
+DESKTOP-AL      DESKTOP-AL\lawre
 
 ```
 
