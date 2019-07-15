@@ -19,6 +19,19 @@
 @snapend
 
 ---
+---
+@snap[west span-40 text-white]
+系統管理工具 (Admin tool)
+@snapend
+### 例如:
+- Registry
+- Windows Update
+- PowerShell Remoting
+@snap[east span-60]
+
+@snapend
+
+---
 
 @snap[east span-50]
 ![](assets/img/presentation.png)
