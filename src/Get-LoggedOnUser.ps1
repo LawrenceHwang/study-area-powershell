@@ -8,7 +8,12 @@ function Get-LoggedOnUser {
     )
     process {
         if ($null -eq $ComputerName) {
-            $user = (Get-CimInstance -ClassName Win32_computersystem -Property username -ErrorAction Stop).UserName
+            $CimSplat = @{
+                ClassName    = 'Win32_ComputerSystem'
+                Property     = 'username'
+                ErrorAction  = 'STOP'
+            }
+            $user = (Get-CimInstance @CimSplat).UserName
             $obj = [PSCustomObject]@{
                 'ComputerName' = $env:COMPUTERNAME
                 'LoggedOnUser' = $user
@@ -20,10 +25,10 @@ function Get-LoggedOnUser {
                     if (Test-Connection -Quiet -ComputerName $c -count 1 -ErrorAction SilentlyContinue | Out-Null) {
                         Write-Verbose -message "Checking the logged on user on $c"
                         $CimSplat = @{
-                            ClassName = 'Win32_ComputerSystem'
-                            Property = 'username'
+                            ClassName    = 'Win32_ComputerSystem'
+                            Property     = 'username'
                             ComputerName = $c
-                            ErrorAction = 'STOP'
+                            ErrorAction  = 'STOP'
                         }
                         $user = (Get-CimInstance @CimSplat).UserName
                     }
