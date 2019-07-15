@@ -2,7 +2,7 @@
 # Theme Setting
 # Doc: https://gitpitch.com/docs/settings/theme
 #
-theme : black
+theme : dark
 
 # Syntax:
 highlight : Ir Black
