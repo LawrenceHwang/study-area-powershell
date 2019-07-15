@@ -34,14 +34,19 @@
 @snapend
 
 ---
-
 ## Demo - 查詢 Windows Update client id
 
 ```
 Get-ItemProperty HKLM:\SOFTWARE\Microsoft\Windows\CurrentVersion\WindowsUpdate\
 ```
 ---
+## Demo - 查詢與下載 KB
 
+```
+Get-KbUpdate -Name KB4057119
+Save-KbUpdate -Name KB4057119
+```
+---
 @img[shadow](assets/img/whereisitsold.jpg)
 
 ---
@@ -69,3 +74,10 @@ Invoke-Pester
 
 ---
 ## Q & A
+
+---
+Appendix
+[PowerShell on GitHub](https://github.com/powershell/powershell)
+[Pester](https://github.com/pester/Pester)
+[AutematedLab](https://github.com/AutomatedLab/AutomatedLab)
+[kbupdate](https://github.com/potatoqualitee/kbupdate)
