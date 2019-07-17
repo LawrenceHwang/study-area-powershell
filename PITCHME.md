@@ -25,14 +25,17 @@
 - Serverless function (Azure Function, AWS PowerShell Lambda)
 
 ---
-## PowerShell 是萬用瑞士刀 - 續
+## PowerShell 是萬用瑞士刀-續
 @ul[spaced text-white]
 - 快速講古
   - Monad, PS2/3/4/5/6/7(Beta)
 - 現在發展狀況 (Open Source, 7 coming)
+
 ---
 @snap[west span-40 text-white]
 腳本語言 (scripting language)
+- 類物件導向
+- .Net
 @snapend
 
 @snap[east span-60]
@@ -43,6 +46,7 @@
 @snap[west span-40 text-white]
 系統管理工具 (Admin tool)
 @snapend
+
 @snap[east span-60]
 ### 例如:
 
@@ -98,6 +102,7 @@ Invoke-Pester
 
 ---
 Appendix
+[Monad Manifesto](https://www.jsnover.com/Docs/MonadManifesto.pdf)
 [PowerShell on GitHub](https://github.com/powershell/powershell)
 [Pester](https://github.com/pester/Pester)
 [AutematedLab](https://github.com/AutomatedLab/AutomatedLab)
