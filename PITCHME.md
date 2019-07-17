@@ -26,7 +26,7 @@
 - 朋友你，要問問題就是在這場啦 😁
 - PowerShell 的
   - 歷史、未來跟應用
-- 讓寫 Powershell 有效率的工具
+- 讓寫 Powershell 更有效率的工具
 - 至少 4個 Demo
 
 @ul[spaced text-white]
@@ -96,10 +96,12 @@ Get-ItemProperty HKLM:\SOFTWARE\Microsoft\Windows\CurrentVersion\WindowsUpdate\
 ---
 ## Demo - 查詢與下載 KB
 
-```
+
+```powershell
 Get-KbUpdate -Name KB4057119
 Save-KbUpdate -Name KB4057119
 ```
+
 ---
 @img[shadow](assets/img/whereisitsold.jpg)
 
@@ -113,7 +115,6 @@ Save-KbUpdate -Name KB4057119
 - [Visual Studio Code]((https://code.visualstudio.com/download))
 
 ---
-
 ## Demo - Use PowerShell Gallery
 
 [SpeculationControl PowerShell Module](https://www.powershellgallery.com/packages/SpeculationControl/1.0.3)
@@ -121,10 +122,11 @@ Save-KbUpdate -Name KB4057119
 ```
 Install-Module -Name SpeculationControl -RequiredVersion 1.0.3
 ```
+
 ---
 ## Demo - Create a Lab with AutomatedLab
-
 ![](assets/img/AutomatedLab.PNG)
+
 ---
 ## Demo - Serverless function with AWS PowerShell Lambda
 
@@ -133,7 +135,7 @@ Install-Module -Name SpeculationControl -RequiredVersion 1.0.3
 
 1. 在 Windows PowerShell 裡面打這幾行 (不要剪貼喔)(請❤用tab)
 
-```
+```powershell
 Get-Service | Where-Object -Property DisplayName -Like '*Win*update'
 
 Get-Service | Where-Object -Property DisplayName -Like '*Win*update' | Get-Member
