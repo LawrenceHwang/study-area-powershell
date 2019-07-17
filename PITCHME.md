@@ -30,6 +30,7 @@
 - 快速講古
   - Monad, PS2/3/4/5/6/7(Beta)
 - 現在發展狀況 (Open Source, 7 coming)
+  - 跨平台 (Windows, MacOS, Linux)
 
 ---
 @snap[west span-40 text-white]
@@ -59,7 +60,7 @@
 @snapend
 
 ---
-## Demo - 查詢 Windows Update client id
+## Demo- 查詢 Windows Update client id
 
 ```
 Get-ItemProperty HKLM:\SOFTWARE\Microsoft\Windows\CurrentVersion\WindowsUpdate\
@@ -80,8 +81,18 @@ Save-KbUpdate -Name KB4057119
 @ul[spaced text-white]
 - PowerShell 5.1 - Windows 內建
 - PowerShell Core 6 - GitHub
-- PowerShell Gallery - 模組
+- [PowerShell Gallery](https://www.powershellgallery.com/) - 模組
 - Visual Studio Code
+
+---
+
+## Demo - Use PowerShell Gallery
+
+[SpeculationControl PowerShell Module](https://www.powershellgallery.com/packages/SpeculationControl/1.0.3)
+
+```
+Install-Module -Name SpeculationControl -RequiredVersion 1.0.3
+```
 
 ---
 
@@ -91,11 +102,11 @@ Save-KbUpdate -Name KB4057119
 Invoke-Pester
 ```
 ---
-## Demo (時間夠時) - Lab with AutomatedLab
+## Demo - Create a Lab with AutomatedLab
 
 ![](assets/img/AutomatedLab.PNG)
 ---
-## Demo (時間夠時) - Serverless function with AWS PowerShell Lambda
+## Demo - Serverless function with AWS PowerShell Lambda
 
 ---
 ## Q & A
@@ -107,3 +118,4 @@ Appendix
 [Pester](https://github.com/pester/Pester)
 [AutematedLab](https://github.com/AutomatedLab/AutomatedLab)
 [kbupdate](https://github.com/potatoqualitee/kbupdate)
+[PowerShell Gallery](https://www.powershellgallery.com/)
