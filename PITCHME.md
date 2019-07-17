@@ -85,7 +85,7 @@
 ---
 ## Demo- 查詢 Windows Update client id
 
-```
+```powershell
 Get-ItemProperty HKLM:\SOFTWARE\Microsoft\Windows\CurrentVersion\WindowsUpdate\
 ```
 ---
@@ -131,12 +131,19 @@ Invoke-Pester
 ![](assets/img/AutomatedLab.PNG)
 
 ---
+## Demo - PowerShell Remoting
+
+- Remoting basic
+- Remoting usage
+- Remoting with `Enter-PSsession`
+- Remoting with `Invoke-Command`
+
 ## Demo - Serverless function with AWS PowerShell Lambda
 
 ---
 ## 現在就做的兩件事情
 
-1. 在 Windows PowerShell 裡面打這幾行 (不要剪貼喔)(請❤用tab)
+- 在 Windows PowerShell 裡面**打**這幾行 (不要剪貼, 請❤用tab)
 
 ```powershell
 Get-Service | Where-Object -Property DisplayName -Like '*Win*update'
@@ -147,19 +154,21 @@ Write-Warning -Message '測一下警告訊息'
 
 Write-Error -Message '測一下錯誤訊息'
 ```
-1. 下載安裝 Visual Studio Code
-   1. 安裝 PowerShell plug-in
+
+- 下載安裝 Visual Studio Code
+   - 安裝 PowerShell plug-in
 ---
 ## Q & A
 
 ---
-Appendix
-[Monad Manifesto](https://www.jsnover.com/Docs/MonadManifesto.pdf)
-[PowerShell on GitHub](https://github.com/powershell/powershell)
-[Pester](https://github.com/pester/Pester)
-[AutematedLab](https://github.com/AutomatedLab/AutomatedLab)
-[kbupdate](https://github.com/potatoqualitee/kbupdate)
-[PowerShell Gallery](https://www.powershellgallery.com/)
-[Download Visual Studio Code](https://code.visualstudio.com/download)
-[VS Code 的中文(繁體)語言套件](https://marketplace.visualstudio.com/items?itemName=MS-CEINTL.vscode-language-pack-zh-hant)
-[[教學] Visual Studio Cod 繁中語言包安裝與語系設定](https://www.minwt.com/webdesign-dev/html/21217.html)
+## Appendix
+
+- [Monad Manifesto](https://www.jsnover.com/Docs/MonadManifesto.pdf)
+- [PowerShell on GitHub](https://github.com/powershell/powershell)
+- [Pester](https://github.com/pester/Pester)
+- [AutematedLab](https://github.com/AutomatedLab/AutomatedLab)
+- [kbupdate](https://github.com/potatoqualitee/kbupdate)
+- [PowerShell Gallery](https://www.powershellgallery.com/)
+- [Download Visual Studio Code](https://code.visualstudio.com/download)
+- [VS Code 的中文(繁體)語言套件](https://marketplace.visualstudio.com/items?itemName=MS-CEINTL.vscode-language-pack-zh-hant)
+- [[教學] Visual Studio Cod 繁中語言包安裝與語系設定](https://www.minwt.com/webdesign-dev/html/21217.html)
