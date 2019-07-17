@@ -22,11 +22,12 @@
 
 @snap[east span-60]
 ## 葫蘆裡賣蝦米藥?
+@ul[spaced text-white]
+- 朋友你，要問問題就是在這場啦 😁
 - PowerShell 的
   - 歷史、未來跟應用
 - 讓寫 Powershell 有效率的工具
 - 至少 4個 Demo
-- 朋友你，要問問題就是在這場啦 😁
 
 @ul[spaced text-white]
 
