@@ -110,7 +110,7 @@ Save-KbUpdate -Name KB4057119
 - [Visual Studio Code]((https://code.visualstudio.com/download)
 
 ---
-## Demo - Use PowerShell Gallery
+## Demo - 使用 PowerShell Gallery
 
 [SpeculationControl PowerShell Module](https://www.powershellgallery.com/packages/SpeculationControl/1.0.3)
 
@@ -145,7 +145,7 @@ Invoke-Pester
 ## Q & A
 
 ---
-## 現在就做的兩件事情
+## 現在就做的兩件事情 (1/2)
 
 - 在 Windows PowerShell 裡面**打**這幾行 (不要剪貼, 請❤用tab)
 
@@ -161,10 +161,14 @@ Write-Warning -Message '測一下警告訊息'
 
 Write-Error -Message '測一下錯誤訊息'
 ```
+## 現在就做的兩件事情 (2/2)
 
 - 下載安裝 [Visual Studio Code](https://code.visualstudio.com/download)
    - 安裝 [繁中包](https://marketplace.visualstudio.com/items?itemName=MS-CEINTL.vscode-language-pack-zh-hant)
    - 安裝 [PowerShell plug-in](https://marketplace.visualstudio.com/items?itemName=ms-vscode.PowerShell)
+---
+
+## Thank you!
 
 ---
 ## Appendix
@@ -175,6 +179,10 @@ Write-Error -Message '測一下錯誤訊息'
 - [AutematedLab](https://github.com/AutomatedLab/AutomatedLab)
 - [kbupdate](https://github.com/potatoqualitee/kbupdate)
 - [PowerShell Gallery](https://www.powershellgallery.com/)
+
+---
+## Appendix
+
 - [Download Visual Studio Code](https://code.visualstudio.com/download)
 - [VS Code 的中文(繁體)語言套件](https://marketplace.visualstudio.com/items?itemName=MS-CEINTL.vscode-language-pack-zh-hant)
 - [[教學] Visual Studio Cod 繁中語言包安裝與語系設定](https://www.minwt.com/webdesign-dev/html/21217.html)
