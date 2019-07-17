@@ -161,6 +161,8 @@ Write-Warning -Message '測一下警告訊息'
 
 Write-Error -Message '測一下錯誤訊息'
 ```
+
+---
 ## 現在就做的兩件事情 (2/2)
 
 - 下載安裝 [Visual Studio Code](https://code.visualstudio.com/download)
