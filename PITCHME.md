@@ -125,7 +125,16 @@ Install-Module -Name SpeculationControl -RequiredVersion 1.0.3
 ```powershell
 Invoke-Pester
 ```
-
+```powershell
+Describe 'Best drink' {
+    Context 'For Health' {
+      It 'Should be water' {
+        $drink = 'Water'
+        $drink | Should -Be 'Water'
+      }
+    }
+}
+```
 ---
 ## Demo - Create a Lab with AutomatedLab
 ![](assets/img/AutomatedLab.PNG)
