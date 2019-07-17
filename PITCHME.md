@@ -16,6 +16,22 @@
 - 連續四年參加北美 PowerShell Summit
 @snapend
 ---
+@snap[west span-40]
+@img[shadow](assets/img/success.jpg)
+@snapend
+
+@snap[east span-60]
+## 葫蘆裡賣蝦米藥?
+- PowerShell 的
+  - 歷史、未來跟應用
+- 讓寫 Powershell 有效率的工具
+- 至少 4個 Demo
+- 朋友你，要問問題就是在這場啦 😁
+
+@ul[spaced text-white]
+
+@snapend
+---
 ## PowerShell 是萬用瑞士刀
 @ul[spaced text-white]
 - 腳本語言 (scripting language)
@@ -109,6 +125,22 @@ Invoke-Pester
 ## Demo - Serverless function with AWS PowerShell Lambda
 
 ---
+## 現在就做的兩件事情
+
+1. 在 Windows PowerShell 裡面打這幾行 (不要剪貼喔)(請❤用tab)
+
+```
+Get-Service | Where-Object -Property DisplayName -Like '*Win*update'
+
+Get-Service | Where-Object -Property DisplayName -Like '*Win*update' | Get-Member
+
+Write-Warning -Message '測一下警告訊息'
+
+Write-Error -Message '測一下錯誤訊息'
+```
+1. 下載安裝 Visual Studio Code
+   1. 安裝 PowerShell plug-in
+---
 ## Q & A
 
 ---
@@ -119,3 +151,6 @@ Appendix
 [AutematedLab](https://github.com/AutomatedLab/AutomatedLab)
 [kbupdate](https://github.com/potatoqualitee/kbupdate)
 [PowerShell Gallery](https://www.powershellgallery.com/)
+[Download Visual Studio Code](https://code.visualstudio.com/download)
+[VS Code 的中文(繁體)語言套件](https://marketplace.visualstudio.com/items?itemName=MS-CEINTL.vscode-language-pack-zh-hant)
+[[教學] Visual Studio Cod 繁中語言包安裝與語系設定](https://www.minwt.com/webdesign-dev/html/21217.html)
