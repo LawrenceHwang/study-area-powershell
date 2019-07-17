@@ -9,8 +9,9 @@
 
 @snap[east span-60]
 ## 分享者
+@ul[spaced text-white]
 - Lawrence Hwang
-- Twitter: CPoweredLion@
+- Twitter: [CPoweredLion@](https://twitter.com/CPoweredLion)
 - 熱愛 PowerShell，從 PowerShell V3 開始使用。
 - 連續四年參加北美 PowerShell Summit
 @snapend
