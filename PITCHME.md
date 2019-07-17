@@ -5,7 +5,7 @@
 ---
 @snap[west span-40]
 @img[shadow](assets/img/lawrence.jpg)
-@endsnap
+@snapend
 
 @snap[east span-60]
 ## 分享者
@@ -13,7 +13,7 @@
 - Twitter: CPoweredLion@
 - 熱愛 PowerShell，從 PowerShell V3 開始使用。
 - 連續四年參加北美 PowerShell Summit
-@endsnap
+@snapend
 ---
 ## PowerShell 是萬用瑞士刀
 @ul[spaced text-white]
