@@ -162,8 +162,9 @@ Write-Warning -Message '測一下警告訊息'
 Write-Error -Message '測一下錯誤訊息'
 ```
 
-- 下載安裝 Visual Studio Code
-   - 安裝 PowerShell plug-in
+- 下載安裝 [Visual Studio Code](https://code.visualstudio.com/download)
+   - 安裝 [繁中包](https://marketplace.visualstudio.com/items?itemName=MS-CEINTL.vscode-language-pack-zh-hant)
+   - 安裝 [PowerShell plug-in](https://marketplace.visualstudio.com/items?itemName=ms-vscode.PowerShell)
 
 ---
 ## Appendix
@@ -177,3 +178,4 @@ Write-Error -Message '測一下錯誤訊息'
 - [Download Visual Studio Code](https://code.visualstudio.com/download)
 - [VS Code 的中文(繁體)語言套件](https://marketplace.visualstudio.com/items?itemName=MS-CEINTL.vscode-language-pack-zh-hant)
 - [[教學] Visual Studio Cod 繁中語言包安裝與語系設定](https://www.minwt.com/webdesign-dev/html/21217.html)
+- [PowerShell plug-in](https://marketplace.visualstudio.com/items?itemName=ms-vscode.PowerShell)
