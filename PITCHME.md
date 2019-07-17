@@ -1,16 +1,17 @@
-# PowerShell，應用與未來
+# PowerShell
+##應用與未來
 
 ---
-## 分享者
 @snap[west span-40]
 @img[shadow](assets/img/lawrence.jpg)
 @endsnap
+
 @snap[east span-60]
+## 分享者
 - Lawrence Hwang
 - Twitter: CPoweredLion@
 - 熱愛 PowerShell，從 PowerShell V3 開始使用。
 - 連續四年參加北美 PowerShell Summit
-
 @endsnap
 ---
 ## PowerShell 是萬用瑞士刀
