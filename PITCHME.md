@@ -1,5 +1,17 @@
-# PowerShell
+# PowerShell，應用與未來
 
+---
+## 分享者
+@snap[west span-40]
+@img[shadow](assets/img/lawrence.jpg)
+@endsnap
+@snap[east span-60]
+- Lawrence Hwang
+- Twitter: CPoweredLion@
+- 熱愛 PowerShell，從 PowerShell V3 開始使用。
+- 連續四年參加北美 PowerShell Summit
+
+@endsnap
 ---
 ## PowerShell 是萬用瑞士刀
 @ul[spaced text-white]
@@ -9,6 +21,12 @@
 - 自動化工具 (Desire State Configuration)
 - Serverless function (Azure Function, AWS PowerShell Lambda)
 
+---
+## PowerShell 是萬用瑞士刀 - 續
+@ul[spaced text-white]
+- 快速講古
+  - Monad, PS2/3/4/5/6/7(Beta)
+- 現在發展狀況 (Open Source, 7 coming)
 ---
 @snap[west span-40 text-white]
 腳本語言 (scripting language)
