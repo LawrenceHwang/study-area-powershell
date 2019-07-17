@@ -59,7 +59,18 @@
 @snap[east span-60]
 ![](assets/img/Get-LoggOnUser.png)
 @snapend
+---
+## Demo - 加 Help!
 
+來，我們來現場幫一個 function 加 help
+
+---
+
+## Demo - 測試工具, Pester
+
+```
+Invoke-Pester
+```
 ---
 @snap[west span-40 text-white]
 系統管理工具 (Admin tool)
@@ -97,9 +108,9 @@ Save-KbUpdate -Name KB4057119
 
 @ul[spaced text-white]
 - PowerShell 5.1 - Windows 內建
-- PowerShell Core 6 - GitHub
+- [PowerShell Core 6 - GitHub](https://github.com/PowerShell/PowerShell)
 - [PowerShell Gallery](https://www.powershellgallery.com/) - 模組
-- Visual Studio Code
+- [Visual Studio Code]((https://code.visualstudio.com/download))
 
 ---
 
@@ -109,14 +120,6 @@ Save-KbUpdate -Name KB4057119
 
 ```
 Install-Module -Name SpeculationControl -RequiredVersion 1.0.3
-```
-
----
-
-## Demo - 測試工具, Pester
-
-```
-Invoke-Pester
 ```
 ---
 ## Demo - Create a Lab with AutomatedLab
