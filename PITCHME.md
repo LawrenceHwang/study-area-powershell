@@ -142,14 +142,20 @@ Invoke-Pester
 ## Demo - Serverless function with AWS PowerShell Lambda
 
 ---
+## Q & A
+
+---
 ## 現在就做的兩件事情
 
 - 在 Windows PowerShell 裡面**打**這幾行 (不要剪貼, 請❤用tab)
 
 ```powershell
+
 Get-Service | Where-Object -Property DisplayName -Like '*Win*update'
 
 Get-Service | Where-Object -Property DisplayName -Like '*Win*update' | Get-Member
+
+Get-Help Get-Service
 
 Write-Warning -Message '測一下警告訊息'
 
@@ -158,8 +164,6 @@ Write-Error -Message '測一下錯誤訊息'
 
 - 下載安裝 Visual Studio Code
    - 安裝 PowerShell plug-in
----
-## Q & A
 
 ---
 ## Appendix
