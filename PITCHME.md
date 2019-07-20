@@ -184,6 +184,7 @@ Write-Error -Message '測一下錯誤訊息'
 ---
 ## Appendix
 
+- [分享會的檔案](https://github.com/LawrenceHwang/study-area-powershell)
 - [Monad Manifesto](https://www.jsnover.com/Docs/MonadManifesto.pdf)
 - [PowerShell on GitHub](https://github.com/powershell/powershell)
 - [Pester](https://github.com/pester/Pester)
